@@ -1,11 +1,20 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Timestamp Microservice. A freeCodeCamp API project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManjeetCumar/timestamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManjeetCumar/timestamp/issues"
+  },
+  "homepage": "https://github.com/ManjeetCumar/timestamp#readme"
 }
