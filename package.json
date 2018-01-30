@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/ManjeetCumar/timestamp/issues"
   },
-  "homepage": "https://github.com/ManjeetCumar/timestamp#readme",
+  "homepage": "https://manjeet-timestamp.glitch.me/",
   "dependencies": {
     "express": "^4.16.2",
     "moment": "^2.20.1"
