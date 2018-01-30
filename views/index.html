@@ -1,0 +1,24 @@
+<!Doctype html>
+
+<head>
+	<title> Timestamp microservice</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+</head>
+<body >
+  <div class="container">
+   <h1>FreeCodeCamp API Projects: Timestamp Microservice</h1>
+       <div class = "container">
+            <p>User stories:</p>
+			<ol>
+			  <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date(example: February 27,2018)</li>
+			  <li>If it does, it returns both the Unix timestamp and the natural language form of the date.</li>
+			  <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+			</ol>
+	   </div>
+   <h3>Example usage:</h3>
+   <p style="color:red">http://localhost:3000/datevalues/February%2027,%202018</p>
+   <p style="color:red">http://localhost:3000/datevalues/15171</p>
+   <h3>Example output:</h3>
+   <p style="color:red">{"unix":"15171","natural":"January 01, 1970"}</p>
+  </div>
+</body>
